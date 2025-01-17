@@ -34,4 +34,4 @@ This website showcases a clothing brand, highlighting its collections, story, an
 ---
 
 
-<sub><strong>by Luna and Bash, combining our skills to create something unique and meaningful.</ßstrong></sub>
+<sub><strong>by Luna and Bash, combining our skills to create something unique and meaningful.</strong></sub>
