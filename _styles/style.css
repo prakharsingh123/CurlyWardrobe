@@ -102,6 +102,12 @@ nav ul li a:hover::before {
   height: 150px;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
+  transition-delay: 0s;
+}
+
+/* Add delay when hover is removed */
+nav ul li a::before {
+  transition: all 0.2s ease-in-out 0.5s; /* Stays visible for 0.5s before disappearing */
 }
 
 nav ul li:nth-child(1) a::before {
