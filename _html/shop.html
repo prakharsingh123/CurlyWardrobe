@@ -3,34 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bash & Luna Co.</title>
-    <link rel="stylesheet" href="../_styles/style.css">
+    <title>CurlyWardrobe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="../_styles/shop.css">
 </head>
 <body>
-<header class="brand-header">
+<header class="shop-header">
     <h1 class="main-name">CurlyWardrobe</h1>
-    <p class="sub-name">
-        <span class="sub-name-main">Bash & Luna Co.</span>
-        <span class="sub-name-small">Discover Your Style</span>
-    </p>
-</header>
-    <nav>
+    <nav class="shop-nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="collections.html">Collections</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="#" id="contacts">Contact</a></li>
+            <span class="shop-nav-right">
+                <li><a href="login.html">Login</a></li>
+                <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </span>
         </ul>
     </nav>
-<div id="contact-popup" class="popup">
-    <div class="popup-content">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="">not yet set</a></p>
-        <p>Phone: <a href="">not yet set</a></p>
-        <button id="close-popup">Close</button>
+</header>
+
+<p class="sub-heading">
+    <span class="sub-name-head1">Free Delivery Over $75 | </span>
+    <span class="sub-name-head1">Free Returns</span>
+</p>
+
+<div class="shop-container">
+    <div class="shop-content">
+        <div class="shop-item">
+            <img src="Products/image1.webp" alt="Essential Cotton Blazer" class="shop-item-img">
+            <h3 class="shop-item-name">Essential Cotton Blazer</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="Products/image2.webp" alt="Classic Cotton Crew" class="shop-item-img">
+            <h3 class="shop-item-name">Classic Cotton Crew</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="Products/image3.webp" alt="Cotton Squareneck Cami" class="shop-item-img">
+            <h3 class="shop-item-name">Cotton Squareneck Cami</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="Products/image4.webp" alt="Organic Linen Maxi Dress" class="shop-item-img">
+            <h3 class="shop-item-name">Organic Linen Maxi Dress</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="Products/image5.webp" alt="Printed Cotton Products" class="shop-item-img">
+            <h3 class="shop-item-name">Printed Cotton Products</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
+        <div class="shop-item">
+            <img src="Products/image6.webp" alt="Cotton Products" class="shop-item-img">
+            <h3 class="shop-item-name">Cotton Products</h3>
+            <p class="shop-item-price">$50.00</p>
+            <button class="shop-item-button">Add to Cart</button>
+        </div>
     </div>
-    <script src="../_scripts/contacts.js"></script>
 </div>
+
+<footer class="shop-footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>CurlyWardrobe</h3>
+            <p>Stylish and sustainable fashion for everyone.</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i> Twitter
+                </a>
+                <a href="https://www.pinterest.com" target="_blank" aria-label="Pinterest">
+                    <i class="fa-brands fa-pinterest"></i> Pinterest
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 CurlyWardrobe. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="../_scripts/contacts.js"></script>
 </body>
 </html>
